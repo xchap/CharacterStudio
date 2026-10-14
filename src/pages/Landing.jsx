@@ -46,28 +46,14 @@ function Landing() {
     <div className={styles.container}>
       <div className={styles.buttonContainer}>
         <button className={styles.button} onClick={createCharacter}>
-          <img src="./assets/media/btn_create_character.png" />
+          <span className={styles.label}>Create</span>
         </button>
         <button className={styles.button} onClick={createVRMCharacter}>
-          <img src="./assets/media/btn_batch_download_character.png" />
+          <span className={styles.label}>Batch</span>
         </button>
         <button className={styles.button} onClick={optimizeCharacter}>
-          <img src="./assets/media/btn_optimize_character.png" />
+          <span className={styles.label}>Optimize</span>
         </button>
-        {
-        // opensea_Key && opensea_Key != "" && <button className={styles.button} onClick={getWallet}>
-        //   <img src="./assets/media/btn_optimize_character.png" />
-        // </button>
-        }
-        {/* <button className={styles.button} onClick={createCharacter}>
-          <img src="./assets/media/btn_tools.png" />
-        </button> */}
-        {/*
-        <button className={styles.button}
-            onClick={
-                loadCharacter
-            }><img src='/assets/media/btn_load_character.png' /></button>
-            */}
       </div>
     </div>
   )
