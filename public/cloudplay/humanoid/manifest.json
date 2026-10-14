@@ -1,0 +1,120 @@
+{
+  "assetsLocation": "./cloudplay/humanoid/",
+  "traitsDirectory": "traits/",
+  "thumbnailsDirectory": "thumbnails/",
+  "traitIconsDirectorySvg": "icons/",
+  "requiredTraits": ["body"],
+  "randomTraits": [],
+  "defaultCullingLayer": -1,
+  "defaultCullingDistance": [0, 0],
+  "offset": [0, 0, 0],
+  "traits": [
+    {
+      "trait": "body",
+      "name": "Body",
+      "iconSvg": "body.svg",
+      "cameraTarget": { "distance": 2.4, "height": 0.9 },
+      "collection": [
+        { "id": "humanoid-base", "name": "Humanoid Base", "directory": "traits/body/humanoid-base.vrm", "thumbnail": "thumbnails/body/humanoid-base.png" }
+      ]
+    },
+    {
+      "trait": "head",
+      "name": "Head",
+      "iconSvg": "head.svg",
+      "cameraTarget": { "distance": 1.2, "height": 1.6 },
+      "collection": [
+        { "id": "bare", "name": "Bare", "directory": "traits/head/bare.vrm", "thumbnail": "thumbnails/head/bare.png" },
+        { "id": "hood", "name": "Hood", "directory": "traits/head/hood.vrm", "thumbnail": "thumbnails/head/hood.png" }
+      ]
+    },
+    {
+      "trait": "torso",
+      "name": "Torso",
+      "iconSvg": "torso.svg",
+      "cameraTarget": { "distance": 1.6, "height": 1.2 },
+      "collection": [
+        { "id": "cloth", "name": "Cloth", "directory": "traits/torso/cloth.vrm", "thumbnail": "thumbnails/torso/cloth.png" },
+        { "id": "plate", "name": "Plate", "directory": "traits/torso/plate.vrm", "thumbnail": "thumbnails/torso/plate.png" }
+      ]
+    },
+    {
+      "trait": "arms",
+      "name": "Arms",
+      "iconSvg": "arms.svg",
+      "cameraTarget": { "distance": 1.6, "height": 1.1 },
+      "collection": [
+        { "id": "bare", "name": "Bare", "directory": "traits/arms/bare.vrm", "thumbnail": "thumbnails/arms/bare.png" },
+        { "id": "bracers", "name": "Bracers", "directory": "traits/arms/bracers.vrm", "thumbnail": "thumbnails/arms/bracers.png" }
+      ]
+    },
+    {
+      "trait": "hands",
+      "name": "Hands",
+      "iconSvg": "hands.svg",
+      "cameraTarget": { "distance": 1.2, "height": 1.0 },
+      "collection": [
+        { "id": "bare", "name": "Bare", "directory": "traits/hands/bare.vrm", "thumbnail": "thumbnails/hands/bare.png" },
+        { "id": "gauntlets", "name": "Gauntlets", "directory": "traits/hands/gauntlets.vrm", "thumbnail": "thumbnails/hands/gauntlets.png" }
+      ]
+    },
+    {
+      "trait": "legs",
+      "name": "Legs",
+      "iconSvg": "legs.svg",
+      "cameraTarget": { "distance": 1.8, "height": 0.6 },
+      "collection": [
+        { "id": "cloth", "name": "Cloth", "directory": "traits/legs/cloth.vrm", "thumbnail": "thumbnails/legs/cloth.png" },
+        { "id": "plate", "name": "Plate", "directory": "traits/legs/plate.vrm", "thumbnail": "thumbnails/legs/plate.png" }
+      ]
+    },
+    {
+      "trait": "feet",
+      "name": "Feet",
+      "iconSvg": "feet.svg",
+      "cameraTarget": { "distance": 1.4, "height": 0.2 },
+      "collection": [
+        { "id": "boots", "name": "Boots", "directory": "traits/feet/boots.vrm", "thumbnail": "thumbnails/feet/boots.png" }
+      ]
+    },
+    {
+      "trait": "back",
+      "name": "Back",
+      "iconSvg": "back.svg",
+      "cameraTarget": { "distance": 2.0, "height": 1.2 },
+      "collection": [
+        { "id": "none", "name": "None", "directory": "traits/back/none.vrm", "thumbnail": "thumbnails/back/none.png" },
+        { "id": "cape", "name": "Cape", "directory": "traits/back/cape.vrm", "thumbnail": "thumbnails/back/cape.png" }
+      ]
+    },
+    {
+      "trait": "primary",
+      "name": "Primary",
+      "iconSvg": "primary.svg",
+      "cameraTarget": { "distance": 1.6, "height": 1.0 },
+      "collection": [
+        { "id": "sword", "name": "Sword", "directory": "traits/primary/sword.vrm", "thumbnail": "thumbnails/primary/sword.png" },
+        { "id": "hammer", "name": "Hammer", "directory": "traits/primary/hammer.vrm", "thumbnail": "thumbnails/primary/hammer.png" }
+      ]
+    },
+    {
+      "trait": "offhand",
+      "name": "Offhand",
+      "iconSvg": "offhand.svg",
+      "cameraTarget": { "distance": 1.6, "height": 1.0 },
+      "collection": [
+        { "id": "none", "name": "None", "directory": "traits/offhand/none.vrm", "thumbnail": "thumbnails/offhand/none.png" },
+        { "id": "shield", "name": "Shield", "directory": "traits/offhand/shield.vrm", "thumbnail": "thumbnails/offhand/shield.png" }
+      ]
+    },
+    {
+      "trait": "accessory",
+      "name": "Accessory",
+      "iconSvg": "accessory.svg",
+      "cameraTarget": { "distance": 1.4, "height": 1.4 },
+      "collection": [
+        { "id": "none", "name": "None", "directory": "traits/accessory/none.vrm", "thumbnail": "thumbnails/accessory/none.png" }
+      ]
+    }
+  ]
+}
