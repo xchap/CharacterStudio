@@ -1,26 +1,25 @@
-[
-  {
-    "name": "Male",
-    "description": "Humanoid male base",
-    "portrait": "./cloudplay/portraits/male.png",
-    "icon": "./cloudplay/icons/male.svg",
-    "manifest": "./cloudplay/male/manifest.json",
-    "format": "vrm"
-  },
-  {
-    "name": "Female",
-    "description": "Humanoid female base",
-    "portrait": "./cloudplay/portraits/female.png",
-    "icon": "./cloudplay/icons/female.svg",
-    "manifest": "./cloudplay/female/manifest.json",
-    "format": "vrm"
-  },
-  {
-    "name": "Humanoid",
-    "description": "Neutral humanoid base",
-    "portrait": "./cloudplay/portraits/humanoid.png",
-    "icon": "./cloudplay/icons/humanoid.svg",
-    "manifest": "./cloudplay/humanoid/manifest.json",
-    "format": "vrm"
-  }
-]
+{
+  "characters":[
+    {
+      "name": "Male — Standard",
+      "description": "Human male, standard build",
+      "portrait": "./cloudplay/portraits/male-standard.png",
+      "manifest": "./cloudplay/male/manifest.json",
+      "format": "vrm"
+    },
+    {
+      "name": "Male — Tall",
+      "description": "Human male, tall build",
+      "portrait": "./cloudplay/portraits/male-tall.png",
+      "manifest": "./cloudplay/male/manifest.json",
+      "format": "vrm"
+    },
+    {
+      "name": "Male — Broad",
+      "description": "Human male, broad build",
+      "portrait": "./cloudplay/portraits/male-broad.png",
+      "manifest": "./cloudplay/male/manifest.json",
+      "format": "vrm"
+    }
+  ]
+}
