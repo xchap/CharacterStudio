@@ -1,31 +1,33 @@
 .buttonContainer {
     position: absolute;
     left: 0;
-    width: calc(100% - 64px);
-    width: -webkit-calc(100% - 64px);
+    width: 100%;
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     text-align: center;
-    height: 320px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
 .buttonContainer .button {
-    background: none !important;
-    border: none !important;
+    background: #1a1a1a !important;
+    border: 1px solid #444 !important;
     cursor: pointer;
-    margin: 0 32px;
-    height: 320px;
-    width: 126px;
+    margin: 0;
+    height: 120px;
+    width: 160px;
     position: relative;
+    border-radius: 12px;
+    color: #fff;
+    font: 600 16px sans-serif;
 }
-.buttonContainer .button img {
-    height: 100%;
-    transition: all 0.3s ease-in-out;
-    position: absolute;
-    left: 0;
-    top: 0;
+.buttonContainer .button:hover {
+    border-color: #888 !important;
+    background: #222 !important;
 }
-.buttonContainer .button:hover img {
-    top: -8px;
+.label {
+    display: block;
+    color: #fff;
 }
 
